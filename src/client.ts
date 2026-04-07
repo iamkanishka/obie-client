@@ -1,19 +1,19 @@
-import { resolveConfig } from "./config.js";
-import { TokenManager } from "./auth/token-manager.js";
-import { HttpClient } from "./http/client.js";
-import { CircuitBreaker } from "./circuitbreaker/index.js";
-import { RateLimiter } from "./ratelimit/index.js";
-import { InMemoryRecorder } from "./observability/index.js";
-import { AISConsentService } from "./aisp/consent.js";
-import { AccountsService } from "./accounts/index.js";
-import { PaymentsService } from "./payments/index.js";
-import { FilePaymentsService } from "./filepayments/index.js";
-import { FundsService } from "./funds/index.js";
-import { VRPService } from "./vrp/index.js";
-import { EventNotificationsService } from "./eventnotifications/index.js";
-import type { ObieClientConfig } from "./config.js";
+import { resolveConfig } from "./config";
+import { TokenManager } from "./auth/token-manager";
+import { HttpClient } from "./http/client";
+import { CircuitBreaker } from "./circuitbreaker/index";
+import { RateLimiter } from "./ratelimit/index";
+import { InMemoryRecorder } from "./observability/index";
+import { AISConsentService } from "./aisp/consent";
+import { AccountsService } from "./accounts/index";
+import { PaymentsService } from "./payments/index";
+import { FilePaymentsService } from "./filepayments/index";
+import { FundsService } from "./funds/index";
+import { VRPService } from "./vrp/index";
+import { EventNotificationsService } from "./eventnotifications/index";
+import type { ObieClientConfig } from "./config";
 
-export { WebhookHandler } from "./webhook/index.js";
+export { WebhookHandler } from "./webhook/index";
 
 /**
  * Root OBIE SDK client. Instantiate one per ASPSP connection.
