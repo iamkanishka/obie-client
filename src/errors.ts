@@ -1,4 +1,4 @@
-import type { OBError, OBErrorDetail } from "./types/index.js";
+import type { OBError, OBErrorDetail } from "./types/index";
 
 /**
  * Thrown when the OBIE API returns a 4xx or 5xx response.
