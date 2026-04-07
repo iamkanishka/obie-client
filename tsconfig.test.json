@@ -5,7 +5,8 @@
     "moduleResolution": "node",
     "outDir": "dist/test",
     "rootDir": ".",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["jest", "node"]   // 🔥 REQUIRED
   },
   "include": ["src/**/*", "tests/**/*"]
 }
