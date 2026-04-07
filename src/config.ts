@@ -1,4 +1,4 @@
-import { OBIEConfigError } from "./errors.js";
+import { OBIEConfigError } from "./errors";
 
 /** Target environment. */
 export type Environment = "sandbox" | "production";
