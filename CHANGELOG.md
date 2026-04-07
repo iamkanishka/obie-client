@@ -2,12 +2,12 @@
 
 All notable changes to `obie-client` are documented here.
 
-The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+The format follows [Keep a Changelog](https://keepachangelog.com/en/2.0.0/).
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
-## [1.0.0] — 2025-01-01
+## [2.0.0] — 2026-04-07
 
 ### Added
 
@@ -37,4 +37,4 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - **All OBIE enumerations** as TypeScript `const` objects with type exports: `Permission`, `PaymentStatus`, `ConsentStatus`, `SchemeName`, `AccountType`, `BalanceType`, `ChargeBearer`, `Frequency`, `FileType`, `VRPType`, `OBIEErrorCode`, `EventNotificationType`
 - **Helper functions**: `allPermissions()`, `detailPermissions()`, `isTerminalPaymentStatus()`, `TERMINAL_PAYMENT_STATUSES`
 
-[1.0.0]: https://github.com/iamkanishka/obie-client/releases/tag/v1.0.0
+[2.0.0]: https://github.com/iamkanishka/obie-client/releases/tag/v2.0.0

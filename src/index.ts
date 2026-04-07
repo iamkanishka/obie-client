@@ -49,5 +49,5 @@ export { VRPService } from "./vrp/index";
 export { EventNotificationsService } from "./eventnotifications/index";
 
 // ── Version ───────────────────────────────────────────────────────────────────
-export const VERSION = "1.0.0";
+export const VERSION = "2.0.0";
 export const SPEC_VERSION = "v3.1.3";
