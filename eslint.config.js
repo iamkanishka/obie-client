@@ -6,20 +6,20 @@ export default [
   js.configs.recommended,
 
   {
-    files: ["**/*.ts"],
-    ignores: ["dist/**", "node_modules/**", "jest.config.ts"],
+    files: ["src/**/*.ts"],
+    ignores: ["dist/**", "node_modules/**", "tests/**"],
 
     languageOptions: {
       parser: tsParser,
       parserOptions: {
         project: "./tsconfig.json",
         ecmaVersion: 2022,
-        sourceType: "module",
-      },
+        sourceType: "module"
+      }
     },
 
     plugins: {
-      "@typescript-eslint": tsPlugin,
+      "@typescript-eslint": tsPlugin
     },
 
     rules: {
@@ -33,7 +33,7 @@ export default [
 
       "no-console": "warn",
       "prefer-const": "error",
-      "eqeqeq": ["error", "always"],
-    },
-  },
+      "eqeqeq": ["error", "always"]
+    }
+  }
 ];
